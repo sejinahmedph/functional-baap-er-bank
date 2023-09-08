@@ -37,9 +37,7 @@ const updateTotalBalance = (inputValue, feildId, isAdding) => {
     const display = document.getElementById('balance-total');
     // previous amount
     const previousTotal = getInnerTextValue(feildId);
-
     let newTotal;
-
     if (isAdding == true) {
         newTotal = previousTotal + inputValue;
     }
